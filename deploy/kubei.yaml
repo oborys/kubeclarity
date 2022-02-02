@@ -183,7 +183,7 @@ spec:
               done
       containers:
       - name: kubei
-        image: gcr.io/eticloud/k8sec/kubei:1.0.14
+        image: gcr.io/eticloud/k8sec/kubei:1.0.15
         imagePullPolicy: Always
         env:
         - name: "KLAR_IMAGE_NAME"
